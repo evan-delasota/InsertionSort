@@ -17,7 +17,7 @@ class Main {
     System.out.println();
 
   }
-  // On average O(n) time complexity, O(1) space complexity
+  // On average O(n^2) time complexity, O(1) space complexity
   static void insertionSort(int[] arr) {
     int length = arr.length;
     
